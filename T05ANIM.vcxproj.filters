@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Math Support">
+      <UniqueIdentifier>{68426daf-a451-4f42-86fb-9bdb8f2911c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows depended">
+      <UniqueIdentifier>{b5604055-d113-4480-abc3-e9fae4b6bb9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system">
+      <UniqueIdentifier>{c1b8904c-08cb-4383-93ae-61c23aaae492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system\Timer system">
+      <UniqueIdentifier>{b9a3ffed-b5b4-4261-a5aa-2fffed3ba54a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system\Input system">
+      <UniqueIdentifier>{933e95b7-a655-459a-8973-e3ef6493520b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stock handle">
+      <UniqueIdentifier>{79ab1c08-e498-4edd-85b8-9fd544c46dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Units">
+      <UniqueIdentifier>{1e0afc9c-fd3f-4619-b95e-cbd5eac22950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system\Render system">
+      <UniqueIdentifier>{57a775d2-b365-4043-b98f-565a549da87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system\Render system\GLEW">
+      <UniqueIdentifier>{55d55dda-ed4f-4dce-a2bb-e3a20c998de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system\Render system\Resources">
+      <UniqueIdentifier>{14c21b70-e8f5-4367-8b94-1ecb7413f6cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system\Sound system">
+      <UniqueIdentifier>{bf031543-9de6-465b-982c-78712488a7e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\mth\mth_vec3.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mthdef.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_matr.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_camera.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec2.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec4.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win\win.h">
+      <Filter>Source Files\Windows depended</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\timer.h">
+      <Filter>Source Files\Animation system\Timer system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\anim.h">
+      <Filter>Source Files\Animation system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\input.h">
+      <Filter>Source Files\Animation system\Input system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\def.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stock.h">
+      <Filter>Source Files\Stock handle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\units\units.h">
+      <Filter>Source Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\render.h">
+      <Filter>Source Files\Animation system\Render system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\render_prim.h">
+      <Filter>Source Files\Animation system\Render system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\res\res.h">
+      <Filter>Source Files\Animation system\Render system\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\res\shader.h">
+      <Filter>Source Files\Animation system\Render system\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\res\materials.h">
+      <Filter>Source Files\Animation system\Render system\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\res\texture.h">
+      <Filter>Source Files\Animation system\Render system\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_ray.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\player.h">
+      <Filter>Source Files\Animation system\Sound system</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\winmsg.cpp">
+      <Filter>Source Files\Windows depended</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\glew\glew.c">
+      <Filter>Source Files\Animation system\Render system\GLEW</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\anim.cpp">
+      <Filter>Source Files\Animation system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\res\material.cpp">
+      <Filter>Source Files\Animation system\Render system\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\render.cpp">
+      <Filter>Source Files\Animation system\Render system</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
